@@ -6,4 +6,3 @@ for letter in range(ord('a'), ord('z') + 1):
             "{:c}".format(letter),
             end='' if letter < ord('z') and chr(letter + 1) not in 'qe' else ''
         )
-
