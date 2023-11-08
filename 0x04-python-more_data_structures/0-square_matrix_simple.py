@@ -1,9 +1,8 @@
-#!/user/bin/python
+#!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    new_matrix = []
+    new_matrix = matrix.copy()
 
-    for row in matrix:
-        new_row = [x ** 2 for x in row]
-        new_matrix.append(new_row)
+    for i in range(len(matrix)):
+        new_matrix[i] = list(map(lambda x: x**2, matrix[i]))
 
-    return new_matrix
+    return (new_matrix)
