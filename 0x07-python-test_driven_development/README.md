@@ -2,9 +2,9 @@
 
 <html>
 
-<head>
-<title>TDD UnitTests</title>
-</head>
+<!--<head>-->
+<!--<title>TDD UnitTests</title>-->
+<!--</head>-->
 
 <body>
 <h3>0x07. Python - Test-driven development</h3>
